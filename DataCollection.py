@@ -6,9 +6,7 @@ from tqdm import tqdm
 import yfinance as yf
 import datetime as dt
 
-apikeys = ['5c1fef454bf87788f4adc17145b6171d','aa63fe105f496bf566f949a0f20d4634','bcd5ccbc3b5777d738225ab4f1f43f9f','7c184f15f96dc492454eb6ab23b80f19','78b0c6f2b704c742938e6e4ffc4a1215',
-           '68f0ccc432776bb1e3c39cbaf0e73eee','d66f6c3bc5b58a106c36d77147318106','1ca2d99b7f976277a15b4c345d620306','977051c39391ebe7848bdc7e871c256c','49f72d8d25ce312160efffaf646d5833',
-           '76e09ee4f32e9f52657ac75d3f714dfc','7af2c4419f4483aed674bff3a749eaf3','895b434e7fb7d002eec33f4b4412eba3','477213bee65f540b8eddfc5891e78d0a','86552b7423e0d322202384b449876eb5'] 
+apikeys = [] 
 stockExchanges = ["NYSE","NASDAQ","AMEX"]
 
 #US["NYSE","NASDAQ","AMEX"] Count:7041
